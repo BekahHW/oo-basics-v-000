@@ -13,7 +13,7 @@ class Book
     @title
   end
   
-  attr_accessor :author, :page_count
+  attr_accessor :author, :page_count, :genre
 
   # def author=(author)
   #   @author = author
@@ -31,13 +31,13 @@ class Book
     #   @page_count
     # end
     
-    def genre=(genre)
-    @genre = genre
-  end
+  #   def genre=(genre)
+  #   @genre = genre
+  # end
  
-  def genre
-    @genre
-  end
+  # def genre
+  #   @genre
+  # end
   
   def turn_page
      puts "Flipping the page...wow, you read fast!"
